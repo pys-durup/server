@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'SDKukdetopokki-Lt';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, table, th, td, ul, ol, li, input, select, textarea, div, p, span, a, option, blockquote {
+	font-family: 'Y_Spotlight';
+}
+
+* {
+	outline: none !important;
+}
+
+.container {
+	width: 700px;
+}
+
+.container .header {
+	
+}
+
+.container .content {
+	/* 내용이 모자라면 높이를 600px로 유지하고, 내용이 엄치면 내용물에 따라 높이를 결정해라(auto)*/
+	min-height: 600px;
+}
+
+.container .footer {
+	margin-top: 20px;
+	margin-bottop: 50px;
+}
+
+.short {
+	width: 30%;
+}
+
+.medium {
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+

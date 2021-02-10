@@ -13,13 +13,36 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
-	<servlet>
+<!-- 	<servlet>
 		<servlet-name>hello</servlet-name>
 		<servlet-class>com.test.jsp.Hello</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
+		<servlet-name>hello</servlet-name> 주로 클래스이름으로 참조
+		<url-pattern>/member/hello.do</url-pattern> 가짜 주소
+	</servlet-mapping> -->
+	
+		<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>com.test.mvc.Hello</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
 		<servlet-name>hello</servlet-name> <!-- 주로 클래스이름으로 참조 -->
-		<url-pattern>/member/hello.do</url-pattern> <!-- 가짜 주소 -->
+		<url-pattern>/hello.do</url-pattern> <!-- 가짜 주소 -->
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ex01</servlet-name>
+		<servlet-class>com.test.mvc.Ex01</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ex01</servlet-name> <!-- 주로 클래스이름으로 참조 -->
+		<url-pattern>/ex01.do</url-pattern> <!-- 가짜 주소 -->
+	</servlet-mapping>
+	
+	
 </web-app>

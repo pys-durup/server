@@ -25,8 +25,8 @@
 	//forward 메소드를 통해서 페이지가 이동 될때
 	// - request, response 유지된다.
 	
-	pageContext.forward("ex10_two.jsp");
-	//response.sendRedirect("ex10_two.jsp");
+	//pageContext.forward("ex10_two.jsp");
+	response.sendRedirect("ex10_two.jsp");
 	
 
 %>    

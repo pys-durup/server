@@ -40,18 +40,6 @@ webContetn > address > images
 
 
 
-
-
-
-
-
-
-
-
-JSP Model 2
-
-
-
 파일 업로드
 example > ex19_file_form.jsp
 example > ex19_file_ok.jsp

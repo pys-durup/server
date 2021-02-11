@@ -70,11 +70,15 @@
 			//alert(list[$(this).data("index")].position.lat);
 			//alert(list[$(this).data("index")].position.lng);
 			
+			// selMarker의 위치가 등록되어 있으면
 			if (selMarker != null) {
+				// Marker 초기화
 				selMarker.setMap(null);
 			}
 			
+			// map 객체 생성(x축좌표, y축좌표)
 			let m = new daum.maps.LatLng(list[$(this).data("index")].position.lat, list[$(this).data("index")].position.lng);
+			
 			
 			selMarker = new daum.maps.Marker({
 				position: m
@@ -84,6 +88,8 @@
 			map.panTo(m);
 			
 		});
+		
+		
 		
 	</script>
 </body>
